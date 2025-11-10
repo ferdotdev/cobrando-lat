@@ -4,15 +4,15 @@
 
 ### 1. Crea tu fork
 
-Crea el fork el repo en GitHub, tienes el enlace aqui: [Cobrando.la](https://github.com/ferdotdeb/cobrando-la) 
+Crea el fork el repo en GitHub, tienes el enlace aqui: [cobrando.lat](https://github.com/ferdotdeb/cobrando.lat) 
 
 ### Crea una branch descriptiva:
 
 Luego clona tu fork localmente y crea una branch nueva
 
 ```bash
-git clone https://github.com/TU_USUARIO/cobrando-la.git
-cd cobrando-la
+git clone https://github.com/TU_USUARIO/cobrando.lat.git
+cd cobrando.lat
 git branch feature/mi-nueva-funcionalidad
 ```
 
@@ -72,7 +72,7 @@ Asegúrate de que tus mensajes sean claros y concisos.
 
 ## 🐛 Reportar Bugs
 
-Abre un [issue](https://github.com/ferdotdeb/cobrando-la/issues) con:
+Abre un [issue](https://github.com/ferdotdeb/cobrando.lat/issues) con:
 
 - Descripción clara del problema
 - Pasos para reproducirlo
