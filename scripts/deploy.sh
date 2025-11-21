@@ -1,6 +1,9 @@
 #!/bin/bash
 
+echo "Updating the repo"
 sudo git pull origin main
-docker compose -f docker/prod/docker-compose.yml down -v
-docker compose -f docker/prod/docker-compose.yml up --build -d
+echo "Taking down the old container"
+docker compose -f docker/prod/compose.yaml down
+echo "Building the new container"
+docker compose -f docker/prod/compose.yaml up --build -d
 echo "Deployed successfully!"
