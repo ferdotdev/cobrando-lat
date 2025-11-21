@@ -1,6 +1,6 @@
 services:
   django:
-    volumes:  
+    volumes:
       - ../../../:/workspaces:cached
    
     command: sleep infinity
