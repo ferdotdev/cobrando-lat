@@ -27,12 +27,12 @@ class UserCreationForm(forms.ModelForm):
         })
     )
     display_name = forms.CharField(
-        label='Nombre de usuario/Negocio',
+        label='Nombre completo o de Negocio',
         max_length=150,
         required=False,
         widget=forms.TextInput(attrs={
             'autocomplete': 'name',
-            'placeholder': 'Tu nombre o negocio'
+            'placeholder': 'Tu nombre o del negocio'
         })
     )
     password1 = forms.CharField(

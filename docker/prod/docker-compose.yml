@@ -1,4 +1,4 @@
-name: cobrando-la-prod
+name: cobrando.lat-prod
 
 services:
   django:
@@ -28,6 +28,6 @@ services:
       fi &&
 
       echo 'Iniciando gunicorn' &&
-      gunicorn --bind 0.0.0.0:8000 --workers ${DOCKER_PROD_DJANGO_GUNICORN_WORKERS:-3} --threads ${DOCKER_PROD_DJANGO_GUNICORN_THREADS:-3} --timeout 120 cobrando_la.wsgi:application &&
+      gunicorn --bind 0.0.0.0:8000 --workers ${DOCKER_PROD_DJANGO_GUNICORN_WORKERS:-3} --threads ${DOCKER_PROD_DJANGO_GUNICORN_THREADS:-3} --timeout 120 cobrando_lat.wsgi:application &&
       echo 'Gunicorn finalizado.'
       "

@@ -1,4 +1,4 @@
-name: cobrando-la-dev
+name: cobrando.lat-dev
 
 services:
   django:

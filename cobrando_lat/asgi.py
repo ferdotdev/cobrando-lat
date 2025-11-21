@@ -1,5 +1,5 @@
 """
-ASGI config for cobrando_la project.
+ASGI config for cobrando.lat project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'cobrando_la.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'cobrando.lat.settings')
 
 application = get_asgi_application()

@@ -68,15 +68,35 @@ def validate_phone_number(phone: str) -> bool:
 
 # Mapeo mínimo (extiende cuando quieras)
 BANK_CODE_MAP = {
-    "002": "Citibanamex",
-    "012": "BBVA",
+    "001": "Banxico",
+    "019": "Banjercito",
+    "166": "Banco del bienestar",
+    "002": "Banamex",
+    "012": "BBVA México",
     "014": "Santander",
     "021": "HSBC",
+    "030": "Ban Bajío",
+    "036": "Inbursa",
+    "042": "Mifel",
+    "044": "Scotiabank",
+    "058": "Banregio",
+    "059": "Invex",
     "072": "Banorte",
-    "638": "Nu Bank",
+    "113": "Ve por mas (B×+)",
+    "127": "Banco Azteca",
+    "130": "Compartamos Banco",
+    "133": "Actinver",
+    "137": "BanCoppel",
+    "138": "Uala",
+    "167": "Hey Banco",
+    "638": "Nu",
+    "646": "Sistema de Transferencia y Pagos (STP)",
+    "661": "Klar",
+    "699": "Fondeadora",
+    "715": "Cashi",
     "722": "Mercado Pago",
-    "130": "Compartamos Banco"
-    # TODO: añadir mas codigos de bancos
+    "728": "Spin by OXXO",
+    # TODO: Keep updating bank codes
 }
 
 class BankDetails(models.Model):
