@@ -4,7 +4,7 @@
 
 ### 1. Crea tu fork
 
-Crea el fork el repo en GitHub, tienes el enlace aqui: [cobrando.lat](https://github.com/ferdotdeb/cobrando-lat) 
+Crea el fork el repo en GitHub, tienes el enlace aqui: [cobrando.lat](https://github.com/ferdotdev/cobrando-lat) 
 
 ### Crea una branch descriptiva:
 
@@ -72,7 +72,7 @@ Asegúrate de que tus mensajes sean claros y concisos.
 
 ## 🐛 Reportar Bugs
 
-Abre un [issue](https://github.com/ferdotdeb/cobrando-lat/issues) con:
+Abre un [issue](https://github.com/ferdotdev/cobrando-lat/issues) con:
 
 - Descripción clara del problema
 - Pasos para reproducirlo

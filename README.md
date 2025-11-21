@@ -25,8 +25,8 @@ Cobrando.lat es una plataforma web para compartir de forma segura tus datos de p
 
 1. **Clona el repo:**
    ```bash
-   git clone https://github.com/ferdotdeb/cobrando-lat.git
-   cd cobrando.lat
+   git clone https://github.com/ferdotdev/cobrando-lat.git
+   cd cobrando-lat
    ```
 
 2. **Crea tu `.env`:**
