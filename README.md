@@ -57,6 +57,6 @@ docker compose up -d
 Asegúrate de configurar correctamente las variables de entorno en producción (`DEBUG=False`, `SECRET_KEY`, etc.).
 
 ## 📝 Licencia
-Distribuido bajo la Licencia Pública General GNU GPL v3.0. Puedes usar, estudiar, modificar y redistribuir el código libremente
+Distribuido bajo la Licencia Pública General GNU GPL v3.0. Puedes usar, estudiar, modificar y redistribuir el código libremente.
 
 Cualquier trabajo derivado debe publicarse bajo la misma licencia (copyleft). Consulta el texto completo en [LICENSE](LICENSE).
